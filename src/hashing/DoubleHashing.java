@@ -3,7 +3,7 @@ package hashing;
 import java.util.ArrayList;
 
 public class DoubleHashing {
-	String[] hashTable;
+	String [] hashTable;
 	int noOfCellsUsedInHashTable;
 
 	
