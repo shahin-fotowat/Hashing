@@ -51,7 +51,7 @@ The hash function will compute the same index for all the strings and the string
 -----------------------------------------------------------------
 - Hash Table techniques covered in this project are: 
 
- o DirectChaining.
- o DoubleHashing
- o LinearProbing
- o QuadraticProbing
+ - DirectChaining
+ - DoubleHashing
+ - LinearProbing
+ - QuadraticProbing
