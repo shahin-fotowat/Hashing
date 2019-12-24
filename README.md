@@ -1,6 +1,6 @@
 # Hashing
 
-- Quick Explnation
+- Quick Explnation:
 
 Hashing is a technique that is used to uniquely identify a specific object from a group of similar objects. Some examples of how hashing is used in our lives include:
 
