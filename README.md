@@ -46,3 +46,12 @@ The index for a specific string will be equal to the sum of the ASCII values of 
 As 599 is a prime number, it will reduce the possibility of indexing different strings (collisions). It is recommended that you use prime numbers in case of modulo. The ASCII values of a, b, c, d, e, and f are 97, 98, 99, 100, 101, and 102 respectively. Since all the strings contain the same characters with different permutations, the sum will 599.
 
 The hash function will compute the same index for all the strings and the strings will be stored in the hash table in the following format. As the index of all the strings is the same, you can create a list on that index and insert all the strings in that list.
+
+
+-----------------------------------------------------------------
+- Hash Table techniques covered in this project are: 
+
+ o DirectChaining.
+ o DoubleHashing
+ o LinearProbing
+ o QuadraticProbing
