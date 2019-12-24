@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DirectChainingMain",
+            "request": "launch",
+            "mainClass": "hashing.DirectChainingMain",
+            "projectName": "Hashing_cfd86c2a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DoubleHashingMain",
+            "request": "launch",
+            "mainClass": "hashing.DoubleHashingMain",
+            "projectName": "Hashing_cfd86c2a"
+        }
+    ]
+}
