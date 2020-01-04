@@ -3,47 +3,44 @@ package hashing;
 public class LinearProbingMain {
 	public static void main(String[] args) {
 		
-		//Constructor
 		LinearProbing linearProbing = new LinearProbing();
 
-
-		linearProbing.insertKeyInHashTable("The");
-		linearProbing.insertKeyInHashTable("quick");
-		linearProbing.insertKeyInHashTable("brown");
-		linearProbing.insertKeyInHashTable("fox");
-		linearProbing.insertKeyInHashTable("over");
-		linearProbing.insertKeyInHashTable("lazy");
+		linearProbing.insertKey("The");
+		linearProbing.insertKey("quick");
+		linearProbing.insertKey("brown");
+		linearProbing.insertKey("fox");
+		linearProbing.insertKey("over");
+		linearProbing.insertKey("lazy");
 		linearProbing.displayHashTable();
 		
-		linearProbing.insertKeyInHashTable("fox"); //use for showing collision
+		linearProbing.insertKey("fox"); //use for showing collision
 		linearProbing.displayHashTable();
 				
-		/*linearProbing.insertKeyInHashTable("fox");
+		
+		linearProbing.insertKey("fox");
 		linearProbing.displayHashTable();
 		
-		linearProbing.insertKeyInHashTable("fox");
+		linearProbing.insertKey("fox");
 		linearProbing.displayHashTable();
 		
-		linearProbing.insertKeyInHashTable("fox");
+		linearProbing.insertKey("fox");
 		linearProbing.displayHashTable();
 		
-		linearProbing.insertKeyInHashTable("fox");
+		linearProbing.insertKey("fox");
 		linearProbing.displayHashTable();
 		
 		
-		linearProbing.searchKeyInHashTable("jump");
-		linearProbing.searchKeyInHashTable("brown");
+		linearProbing.searchKey("jump");
+		linearProbing.searchKey("brown");
 		
 		
-		linearProbing.deleteKeyFromHashTable("jump");
-		linearProbing.deleteKeyFromHashTable("quick");
+		linearProbing.deleteKey("jump");
+		linearProbing.deleteKey("quick");
 		linearProbing.displayHashTable();
 		
 		
 		linearProbing.deleteHashTable();
-		linearProbing.displayHashTable();
-*/		
-				
-	}//end of method
+		linearProbing.displayHashTable();	
+	}
 
 }//end of class

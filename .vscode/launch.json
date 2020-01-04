@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LinearProbingMain",
+            "request": "launch",
+            "mainClass": "hashing.LinearProbingMain",
+            "projectName": "Hashing_cfd86c2a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DirectChainingMain",
             "request": "launch",
             "mainClass": "hashing.DirectChainingMain",
